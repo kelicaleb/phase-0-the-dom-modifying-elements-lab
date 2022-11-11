@@ -1,12 +1,16 @@
 const main = document.querySelector("main").remove("id")
 console.log(main);
-var newHeader = document.createElement("h1")
-newHeader.setAttribute("id", "victory" )
-newHeader.innerHTML = "H1"
+const newHeader = document.createElement("h1")
+newHeader.setAttribute("id", "victory")
+newHeader.innerHTML = "is the champion"
 document.body.append(newHeader)
-var newHeader2 = document.createElement("h1");
-newHeader2.innerHTML = "Victory";
+var newHeader1 = document.createElement("h1")
+newHeader1.innerHTML =  "Victory"
+newHeader.append(newHeader1)
+var newHeader2 = document.createElement("h1")
 newHeader.append(newHeader2)
-var champion = document.createElement("h1");
-newHeader2.innerHTML = "Caleb is the champion";
-newHeader.append(champion)
+var newHeader3 = document.createElement("h1")
+newHeader3.innerHTML =  "Caleb is the champion"
+newHeader.append(newHeader3)
+
+
